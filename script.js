@@ -1,5 +1,5 @@
 // Set the wedding date
-const weddingDate = new Date("Nov 01, 2025 10:00:00").getTime();
+const weddingDate = new Date("Nov 01, 2025 10:30:00").getTime();
 
 // Update countdown every 1 second
 const timer = setInterval(function() {
