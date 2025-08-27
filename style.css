@@ -76,6 +76,15 @@ section {
   border-radius: 10px;
 }
 
+.scripture {
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #555;
+  margin: 2rem 0;
+}
+
 /* RSVP QR Code */
 .qr-code img {
   width: 200px;
