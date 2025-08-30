@@ -21,6 +21,7 @@ body {
 /* Hero Section */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 header {
+  position: relative;
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('hero.jpg') no-repeat center center/cover;
   display: flex;
@@ -30,7 +31,14 @@ header {
   color: white;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
 }
-
+.logo {
+  position: absolute;
+  top: 20px;   /* distance from top */
+  left: 20px;  /* distance from left */
+  width: 100px;  /* adjust size */
+  height: auto;
+  z-index: 10; /* ensures it stays above background */
+}
 header h1 {
   font-size: 4rem;
   margin: 0;
