@@ -34,7 +34,7 @@ header {
 .logo {
   position: absolute;
   top: 20px;   /* distance from top */
-  left: 100px;  /* distance from left */
+  left: 20px;  /* distance from left */
   width: 100px;  /* adjust size */
   height: auto;
   z-index: 10; /* ensures it stays above background */
