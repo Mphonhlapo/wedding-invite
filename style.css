@@ -98,7 +98,11 @@ section {
   width: 200px;
   margin-top: 1rem;
 }
-
+.note, .notes p {
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #555;
+}
 /* Footer */
 footer {
   background: #333;
